@@ -27,6 +27,7 @@ struct Triangle {
     radius: f32,
 }
 impl Triangle {
+    //TODO: Add rendering of Triangles, either render each triangle, or collect all edges and render those
     fn print(&self) {
         let vertices = self.vertices;
         println!(
@@ -77,6 +78,7 @@ fn build_triangle(points: [Point; 3]) -> Triangle {
     }
 }
 fn bowyer_watson_triangulation(points: Vec<Point>) -> Vec<Triangle> {
+    //TODO: maybe change this algorithm in a way that allows adding of points after generation, probably a function for the points for loop, possibly add a tag for super triangle connected triangles so they arent outputed/ rendered
     let mut triangulation: Vec<Triangle> = vec![build_triangle([
         Point {
             x: -100000.0,
