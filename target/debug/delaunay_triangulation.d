@@ -1,1 +1,1 @@
-E:\Vscode\Rust\delaunay_triangulation\target\debug\delaunay_triangulation.exe: E:\Vscode\Rust\delaunay_triangulation\src\main.rs
+C:\Users\Ashton\ Steed\Rust\ Projects\Triangulation\delaunay_triangulation\target\debug\delaunay_triangulation.exe: C:\Users\Ashton\ Steed\Rust\ Projects\Triangulation\delaunay_triangulation\src\main.rs
